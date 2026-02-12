@@ -1,0 +1,84 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* muk_web_chatter
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-12 16:53+0000\n"
+"PO-Revision-Date: 2026-02-12 16:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: muk_web_chatter
+#: model:ir.model.fields.selection,name:muk_web_chatter.selection__res_users__chatter_position__bottom
+msgid "Bottom"
+msgstr "Bên dưới"
+
+#. module: muk_web_chatter
+#: model:ir.model.fields,field_description:muk_web_chatter.field_res_users__chatter_position
+msgid "Chatter Position"
+msgstr "Vị trí Chatter"
+
+#. module: muk_web_chatter
+#: model:ir.model.fields,field_description:muk_web_chatter.field_ir_http__display_name
+#: model:ir.model.fields,field_description:muk_web_chatter.field_res_users__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: muk_web_chatter
+#: model:ir.model,name:muk_web_chatter.model_ir_http
+msgid "HTTP Routing"
+msgstr "Định tuyến HTTP"
+
+#. module: muk_web_chatter
+#: model:ir.model.fields,field_description:muk_web_chatter.field_ir_http__id
+#: model:ir.model.fields,field_description:muk_web_chatter.field_res_users__id
+msgid "ID"
+msgstr "ID"
+
+#. module: muk_web_chatter
+#. odoo-javascript
+#: code:addons/muk_web_chatter/static/src/chatter/chatter.xml:0
+msgid "Message"
+msgstr "Tin nhắn"
+
+#. module: muk_web_chatter
+#. odoo-javascript
+#: code:addons/muk_web_chatter/static/src/chatter/chatter.xml:0
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: muk_web_chatter
+#. odoo-javascript
+#: code:addons/muk_web_chatter/static/src/chatter/chatter.xml:0
+msgid "Show/Hide Notifications"
+msgstr "Hiển thị/Ẩn thông báo"
+
+#. module: muk_web_chatter
+#. odoo-javascript
+#: code:addons/muk_web_chatter/static/src/chatter/chatter.xml:0
+msgid "External"
+msgstr "Bên ngoài"
+
+#. module: muk_web_chatter
+#. odoo-javascript
+#: code:addons/muk_web_chatter/static/src/chatter/chatter.xml:0
+msgid "Internal"
+msgstr "Nội bộ"
+
+#. module: muk_web_chatter
+#: model:ir.model.fields.selection,name:muk_web_chatter.selection__res_users__chatter_position__side
+msgid "Side"
+msgstr "Bên cạnh"
+
+#. module: muk_web_chatter
+#: model:ir.model,name:muk_web_chatter.model_res_users
+msgid "User"
+msgstr "Người dùng"
+
