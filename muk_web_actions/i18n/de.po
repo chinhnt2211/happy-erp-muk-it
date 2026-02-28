@@ -62,7 +62,7 @@ msgstr "In Batch ausführen"
 #: model:ir.model.fields,field_description:muk_web_actions.field_ir_actions_report__id
 #: model:ir.model.fields,field_description:muk_web_actions.field_ir_actions_server__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: muk_web_actions
 #: model:ir.model.fields,help:muk_web_actions.field_ir_actions_report__execute_in_batch

@@ -1,7 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* muk_mail_route
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
@@ -10,6 +9,7 @@ msgstr ""
 "PO-Revision-Date: 2025-12-16 08:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -48,7 +48,7 @@ msgstr "Abbrechen"
 #. module: muk_mail_route
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_configuration__code
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #. module: muk_mail_route
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_router__configuration_id
@@ -141,7 +141,7 @@ msgstr "Hat Nachricht"
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_container__id
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_router__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: muk_mail_route
 #: model:ir.model.fields,help:muk_mail_route.field_muk_mail_route_container__message_needaction
@@ -198,6 +198,8 @@ msgid "Message"
 msgstr "Nachricht"
 
 #. module: muk_mail_route
+#. odoo-python
+#: code:addons/muk_mail_route/models/container.py:0
 #: model:ir.model,name:muk_mail_route.model_muk_mail_route_container
 msgid "Message Container"
 msgstr "Nachrichtencontainer"
@@ -206,6 +208,11 @@ msgstr "Nachrichtencontainer"
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_container__message_has_error
 msgid "Message Delivery error"
 msgstr "Nachrichtenzustellungsfehler"
+
+#. module: muk_mail_route
+#: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_container__message_fts_content
+msgid "Message Search Content"
+msgstr "Nachrichtensuchinhalt"
 
 #. module: muk_mail_route
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_container__message_ids
@@ -227,7 +234,7 @@ msgstr "Modellname"
 #. module: muk_mail_route
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_configuration__name
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. module: muk_mail_route
 #: model:ir.model.fields.selection,name:muk_mail_route.selection__muk_mail_route_configuration__route_type__new
@@ -261,9 +268,20 @@ msgid "Number of messages with delivery error"
 msgstr "Anzahl der Nachrichten mit Zustellfehler"
 
 #. module: muk_mail_route
+#: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_container__rating_ids
+msgid "Ratings"
+msgstr "Bewertungen"
+
+#. module: muk_mail_route
 #: model_terms:ir.ui.view,arch_db:muk_mail_route.view_mail_message_failed_list
 msgid "Route"
-msgstr ""
+msgstr "Route"
+
+#. module: muk_mail_route
+#. odoo-python
+#: code:addons/muk_mail_route/models/mail_message.py:0
+msgid "Route Message"
+msgstr "Nachricht weiterleiten"
 
 #. module: muk_mail_route
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_router__reference
@@ -279,7 +297,7 @@ msgstr "Routentyp"
 #. module: muk_mail_route
 #: model:ir.model,name:muk_mail_route.model_muk_mail_route_router
 msgid "Router"
-msgstr ""
+msgstr "Router"
 
 #. module: muk_mail_route
 #: model:ir.model,name:muk_mail_route.model_muk_mail_route_configuration
@@ -307,6 +325,11 @@ msgstr "Sequenz"
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_router__set_is_internal
 msgid "Set Internal"
 msgstr "Intern festlegen"
+
+#. module: muk_mail_route
+#: model:ir.model.fields,help:muk_mail_route.field_muk_mail_route_container__message_fts_content
+msgid "Technical field to support full text search on messages."
+msgstr "Technisches Feld zur Unterstützung der Volltextsuche in Nachrichten."
 
 #. module: muk_mail_route
 #: model:ir.model.fields,field_description:muk_mail_route.field_muk_mail_route_container__website_message_ids

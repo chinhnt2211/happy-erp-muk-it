@@ -1,7 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* muk_product
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0+e\n"
@@ -10,6 +9,7 @@ msgstr ""
 "PO-Revision-Date: 2025-12-16 08:49+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -69,7 +69,8 @@ msgstr "Ein weiterer Eintrag mit demselben Barcode existiert bereits."
 #. module: muk_product
 #: model:ir.model.constraint,message:muk_product.constraint_product_product_unique_default_code
 msgid "Another entry with the same default code already exists."
-msgstr "Ein weiterer Eintrag mit derselben internen Referenz existiert bereits."
+msgstr ""
+"Ein weiterer Eintrag mit derselben internen Referenz existiert bereits."
 
 #. module: muk_product
 #: model_terms:ir.ui.view,arch_db:muk_product.view_product_document_search
@@ -85,7 +86,7 @@ msgstr "Attribute"
 #: model:ir.model.fields,field_description:muk_product.field_product_product__barcode
 #: model:ir.model.fields.selection,name:muk_product.selection__muk_product_product_search__search_field__product_variant_ids_barcode
 msgid "Barcode"
-msgstr ""
+msgstr "Barcode"
 
 #. module: muk_product
 #: model_terms:ir.ui.view,arch_db:muk_product.view_product_search_form
@@ -160,7 +161,7 @@ msgstr "Domäne"
 #. module: muk_product
 #: model:ir.model.fields.selection,name:muk_product.selection__muk_product_product_search__value_split_operator__
 msgid "Enter"
-msgstr ""
+msgstr "Eingabe"
 
 #. module: muk_product
 #: model:ir.model.fields,field_description:muk_product.field_muk_product_product_search__search_field
@@ -178,7 +179,7 @@ msgstr "Festpreisregeln"
 #: model:ir.model.fields,field_description:muk_product.field_product_template__id
 #: model:ir.model.fields,field_description:muk_product.field_res_config_settings__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: muk_product
 #: model_terms:ir.ui.view,arch_db:muk_product.view_product_search_form
@@ -368,6 +369,9 @@ msgid "Sales"
 msgstr "Verkauf"
 
 #. module: muk_product
+#. odoo-javascript
+#: code:addons/muk_product/static/src/views/kanban/product/product_kanban_view.xml:0
+#: code:addons/muk_product/static/src/views/list/product_list_view.xml:0
 #: model:ir.model.fields,field_description:muk_product.field_muk_product_product_search__search_value
 #: model_terms:ir.ui.view,arch_db:muk_product.view_product_search_form
 msgid "Search"
@@ -401,13 +405,19 @@ msgstr "Geteilt durch"
 #. module: muk_product
 #: model:ir.model.fields.selection,name:muk_product.selection__muk_product_product_search__value_split_operator__
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #. module: muk_product
 #: model_terms:ir.ui.view,arch_db:muk_product.view_product_panel_search
 #: model_terms:ir.ui.view,arch_db:muk_product.view_product_template_panel_search
 msgid "Tags"
 msgstr "Stichwörter"
+
+#. module: muk_product
+#. odoo-python
+#: code:addons/muk_product/models/res_config_settings.py:0
+msgid "The sequence couldn't be found."
+msgstr "Die Sequenz konnte nicht gefunden werden."
 
 #. module: muk_product
 #: model:ir.ui.menu,name:muk_product.menu_uom_unit

@@ -33,7 +33,7 @@ msgstr "Marke helle Farbe"
 #. module: muk_web_colors
 #: model_terms:ir.ui.view,arch_db:muk_web_colors.view_res_config_settings_form
 msgid "Branding"
-msgstr ""
+msgstr "Branding"
 
 #. module: muk_web_colors
 #: model:ir.model,name:muk_web_colors.model_muk_web_colors_color_assets_editor
@@ -85,12 +85,12 @@ msgstr "Anzeigename"
 #: model:ir.model.fields,field_description:muk_web_colors.field_muk_web_colors_color_assets_editor__id
 #: model:ir.model.fields,field_description:muk_web_colors.field_res_config_settings__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: muk_web_colors
 #: model_terms:ir.ui.view,arch_db:muk_web_colors.view_res_config_settings_form
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 #. module: muk_web_colors
 #: model:ir.model.fields,field_description:muk_web_colors.field_res_config_settings__color_info_dark

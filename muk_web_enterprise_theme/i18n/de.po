@@ -35,7 +35,7 @@ msgstr "Helles Hintergrundbild Appsmenü"
 #. module: muk_web_enterprise_theme
 #: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
 msgid "Apps Text"
-msgstr ""
+msgstr "Apps-Text"
 
 #. module: muk_web_enterprise_theme
 #: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
@@ -113,7 +113,7 @@ msgstr "Anzeigename"
 #. module: muk_web_enterprise_theme
 #: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
 msgid "Favicon"
-msgstr ""
+msgstr "Favicon"
 
 #. module: muk_web_enterprise_theme
 #: model:ir.model,name:muk_web_enterprise_theme.model_ir_http
@@ -125,7 +125,7 @@ msgstr "HTTP-Routing"
 #: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_company__id
 #: model:ir.model.fields,field_description:muk_web_enterprise_theme.field_res_config_settings__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: muk_web_enterprise_theme
 #: model_terms:ir.ui.view,arch_db:muk_web_enterprise_theme.view_res_config_settings_colors_form
